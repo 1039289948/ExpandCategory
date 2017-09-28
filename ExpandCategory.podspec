@@ -18,12 +18,12 @@ Pod::Spec.new do |s|
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.requires_arc = true
 
-# UIView 和 EasyLog 在工程中以子目录显示
+# NSExpand 和 UIExpand 在工程中以子目录显示
    s.subspec 'NSExpand' do |ss|
-        ss.source_files = 'ExpandCategory/NSExpand/*.{h,m}'
+        ss.source_files = 'NSExpand/*.{h,m}'
     end
     s.subspec 'UIExpand' do |ss|
-        ss.source_files = 'ExpandCategory/UIExpand/*.{h,m}'
+        ss.source_files = 'UIExpand/*.{h,m}'
     end
 
 end
