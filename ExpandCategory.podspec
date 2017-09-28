@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.platform     = :ios, "7.0"
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/1039289948/ExpandCategory.git", :commit => "343901a6901186c01736c1ccb59fdee60e2155b8" }
+  s.source       = { :git => "https://github.com/1039289948/ExpandCategory.git", :tag => s.version }
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.requires_arc = true
 
