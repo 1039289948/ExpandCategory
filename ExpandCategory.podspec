@@ -15,15 +15,16 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source       = { :git => "https://github.com/1039289948/ExpandCategory.git", :tag => s.version }
+  s.source_files     = 'ZXCategory/**/*'
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.requires_arc = true
 
 # NSExpand 和 UIExpand 在工程中以子目录显示
-   s.subspec 'NSExpand' do |ss|
-        ss.source_files = 'NSExpand/*.{h,m}'
-    end
-    s.subspec 'UIExpand' do |ss|
-        ss.source_files = 'UIExpand/*.{h,m}'
-    end
+# s.subspec 'NSExpand' do |ss|
+#       ss.source_files = 'NSExpand/*.{h,m}'
+#   end
+#   s.subspec 'UIExpand' do |ss|
+#       ss.source_files = 'UIExpand/*.{h,m}'
+#   end
 
 end
